@@ -1,6 +1,8 @@
 # Pricing analysis and prediction of Airbnb in Seattle
 This is a project which my teammates and me did in IST 718(Big Data Analytics) at Syracuse University. 
 
+Our project was highly praised by the professor
+<div align=center><img width="320" height="150" src="./pic/9.png"/></div>
 ## Project Overview:
 This project is to identify the dominant factors of the house price in Airbnb. It analyzed the sentiment of guests and provided market strategies to increase the revenue for the stakeholder of Airbnb. Airbnb has become a worldwide application that people use broadly during personal or business travels for its convenience and cost-effectiveness. For this project, we have explored, made in-depth research on some public databases and decided to focus on the dataset in Seattle eventually. By analyzing the strength of the correlation between the price and various dependent variables, the insights we gained from the dataset would help us to answer the major business question: How can we help Airbnb hosts to adjust their pricing strategy to obtain the optimal gross margin and what is the overall sentiment of the users?
 
