@@ -16,7 +16,7 @@ The Airbnb dataset contains 106 columns and 9024 rows, which is available at htt
 ## Exploration Data Analysis
 ### Which place is most popular？
 
-<div align=center><img width="320" height="150" src="./pic/6.png"/></div>
+<div align=center><img width="480" height="200" src="./pic/6.png"/></div>
 
 ### WordCloud
 
@@ -37,6 +37,7 @@ The feedback from our customers are the first-hand materials to be analyzed. Onl
 
 ## Recommender system
 In the past few years, with the rapid rise of the big data industry, companies like Amazon, Netflix, Linkedin developed advanced intelligent recommender systems. They no longer just barely take the company’s own ideas as the recommendation. For now, the system can help to direct their products to the just-right customers according to the preference of the individuals. Thus, customers can get what they indeed-needs within a key strike. In the meanwhile, companies are able to improve their services and increase sales. So the recommender system is pretty significant for a company. Through the above data analysis we know, there are a lot of people using Airbnb frequently and the most popular house was booked 795 times, so this house must have something special to attract customers. Everyone has their unique preference that shares some common with a particular group of people. Therefore it is very important and intimate to recommend similar conditions of house to users. The system can book rooms to please them as much as possible.
+Collaborative filtering is a common technique used by recommender systems.
 
 <div align=center><img width="320" height="150" src="./pic/3.png"/></div>
 
@@ -44,7 +45,7 @@ In the past few years, with the rapid rise of the big data industry, companies l
 ### Feature Importance
 Using these features in the elastic net regression, we conclude that the price is more sensitive to the room's cleaning fee, which means the cleaner the room, the higher class of the houses it is. Guests tend to have a unified attitude towards the extra people. People may request a flexible arrangement, which means vouchers rewards would please a particular group of guests. This is a cost to Airbnb, but it helps to maintain the retention rate. Bed type, accommodate, bedroom and all other features indicated that comfort is a determinant for a guest to choose a house. And they could measure it by gauging the review per month.
 
-<div align=center><img width="200" height="200" src="./pic/1.png"/></div>
+<div align=center><img width="250" height="200" src="./pic/1.png"/></div>
 
 ### Regression Performance
 The RMSE of the final random forest regression model is 77.654547.The R^2 of the final random forest regression model is 0.764853. we randomly split data -- 70% training data, 30% testing data. We used cross-validation and added hyperparameters to get the best model. Each time we get 9 models, they have different performances. Because the data has been splitted into 3 different folders, this way can solve overfitting or underfitting problems.
